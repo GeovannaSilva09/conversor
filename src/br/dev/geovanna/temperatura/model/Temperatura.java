@@ -9,15 +9,19 @@ public class Temperatura {
 
 	}
 
-	public void setCelsius() {
+	public void setCelsius(double celsius) {
+		this.celsius = celsius;
+
+	}
+
+	// Métodos de conversão adicionados
+	public double converterParaKelvin() {
+		return celsius + 273.15;
 
 	}
 
 	public double converterParaFahreinheit() {
-
-	}
-
-	public double converterParaKelvin() {
+		return celsius = ((celsius * 1.8) + 32);
 
 	}
 
